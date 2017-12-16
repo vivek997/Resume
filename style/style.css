@@ -1,0 +1,429 @@
+ body {
+margin: 0;
+     padding: 0;
+     background-color: #FAFAFA;
+}
+
+.nav{
+    margin-top: 50px;
+    
+}
+ul{
+    list-style: none;
+    
+}
+menu ul {
+	list-style: none;
+    padding: 0;
+    margin-top: -50px;
+    margin-left: -40px;
+    overflow: hidden;
+    background-color: #353535;
+    position: fixed;
+}
+ul li{
+	float: left;
+	padding: 15px;
+    margin: 1px;
+    width: 90px;
+    text-align: center;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#header {
+    position: relative;
+    display: block;
+    padding: 1px;
+    margin: 0px;
+    width: 99.88%;
+    height: 40%;
+    background-color: #4f4f4f;
+}
+
+#intro{
+    font-weight: 400;
+    padding: 4px;
+    margin: 0px;
+    font-size: 2em;
+    color: #ffffff;
+    background-color: #4f4f4f;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+    text-align: center;
+ }
+h3{
+    font-size: 18;
+    padding: 0;
+    margin-top: -40px;
+}
+
+
+#about #profile {
+    animation-delay: 500ms;
+animation-duration: 1000ms;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    top: 200px;
+    left: 50%;
+    margin-left: -90px;
+    z-index: 1;
+    display: block;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+#about #profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+#about #intro-div{
+    padding: 30px 0;
+}
+
+.card {
+    position: relative;
+    margin: 0.5rem  1rem;
+    background-color: #fff;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+
+#social-nav{
+    text-align: center;
+    margin-left: 25%;
+    padding: 0px;
+}
+#about .social-icon{
+    list-style: none;
+    margin-top: 90px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+    text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #ffffff;
+  color: #777777;
+}
+.fa-twitter {
+  background: #ffffff;
+  color: #777777;
+}
+.fa-linkedin {
+  background: #ffffff;
+  color: #777777;
+}
+.fa-google {
+  background: #ffffff;
+  color: #777777;
+}
+.fa-instagram {
+  background: #ffffff;
+  color: #777777;
+}
+
+#about #intro-div p {
+    padding: 0 5%;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-center {
+    text-align: center;
+}
+
+.title{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: #606060;
+    
+}
+.exp-h{
+    margin-top: 50px;
+    padding-top: 100px;
+}
+.exp-card{
+    background-color: #fff;
+    width: 500px;
+    height: 200px;
+    margin-left: 100px;
+    float: left;
+    margin-top: 100px;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0;
+}
+.card-header{
+    background-color: #424242;
+    height: 50px;
+}
+.card-header h3{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+.card-header h4{
+    text-decoration: none;
+    text-align: center;
+}
+.exp-card-2{
+    background-color: #fff;
+    width: 500px;
+    height: 200px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    transition: box-shadow .25s;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0;
+}
+
+.exp-card p{
+    text-align: center;
+    margin-top: 100px;
+}
+.exp-card-2 p{
+    text-align: center;
+    margin-top: 100px;
+}
+#skills{
+    margin-bottom: 500px;
+}
+#skills h4{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: #606060;
+    margin-top: 400px;
+    padding-top: 160px;
+   
+}
+.skill-wrapper {
+    background-color: #424242;
+    color: #ffffff;
+   
+}
+
+.content-wrapper {
+    width: 500px;
+    height: auto;
+    float: left;
+    padding: 25px 20px;
+    margin-top:0;
+    margin-left: 80px;
+}
+.content-wrapper-two {
+    width: 500px;
+    height: auto;
+    float:right;
+    padding: 25px 20px;
+    margin-top:0;
+    margin-right: 80px;
+}
+.skill-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+}
+.skill-progress-div p span {
+    float: right;
+}
+.skill-progress {
+    position: relative;
+    background-color: #1c1c1c;
+    margin: 15px 0;
+    height: 3px;
+    z-index: 0;
+    overflow: visible;
+}
+.progress .determinate {
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    transition: width .3s linear;
+}
+.skill-determinate .skill-determinate-circle {
+    position: absolute;
+    right: 0%;
+    top: -22px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.nine{
+    left:430px;
+}
+.eight{
+    left: 380px;
+}
+.seven{
+    left: 320px;
+}
+.one-ten{
+    left: 480px;
+}
+/*---------------------------------------------------*/
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300';
+
+$padding:30px;
+
+* { box-sizing: border-box; }
+
+/*  body { background: #757575; overflow-x: hidden; }  */
+.container-edu {
+  perspective: 800px;
+    
+  
+  /* Styling */  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
+  /* Center it */
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+    margin-left: 350px;
+    float: left;
+  transform: translate(-50%, -50%);
+}
+.card-one-edu {
+  /* Styling */
+  width: 500px;
+  height: 300px;
+  background: rgb(20,20,20);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);  
+  
+  /* Card flipping effects */
+  transform-style: preserve-3d;
+  transition: 0.6s; 
+}
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /* Fix Chrome rendering bug */
+  transform: rotate(0deg) translateZ(1px);
+}
+
+/* Flip the card on hover */
+.container-edu:hover .card-one-edu,
+.back {
+  transform: rotateY(-180deg) translateZ(1px);
+}
+/*eduction card 2*/
+.container-edu2:hover .card-one-edu,
+.back {
+  transform: rotateY(-180deg) translateZ(1px);
+}
+/* Front styling */
+.front {
+  /* Center the name + outline (almost) */
+  line-height: 390px; /* Height - some (because visual center is a little higher than actual center) */
+  text-align: center;
+}
+.logo {
+  outline: 1px solid #19F6E8;
+  display: inline-block;
+  padding: 15px 40px;
+  
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 32px;
+  letter-spacing: 8px;
+}
+
+/* Back styling */
+.back {
+  background: #15CCC0;
+  padding: $padding;
+}
+.name {
+  color: #3B3B3B;
+  margin-bottom: 0;
+}
+.course{
+    color: #3B3B3B;
+    font-size: 14;
+}
+p {
+  margin: 0.8em 0;
+}
+.info {
+  position: absolute;
+  bottom: $padding;
+  left: $padding;
+  color: #3b3b3b;
+    padding: 10px;
+}
+.property {
+  color: #fff;
+}
+
+/* Make semi-responsive */
+@media (max-width:0px) {
+  .card-one-edu { transform: scale(.5); }
+  .container-edu:hover .card-one-edu { transform: scale(.5) rotateY(-180deg) translateZ(1px); }
+}
+/*---------------------------------------------------*/
+.container-edu2 {
+  perspective: 800px;
+    
+  
+  /* Styling */  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
+  /* Center it */
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+    margin-left: 500px;
+    float: right;
+  transform: translate(50%, -50%);
+}
+
+/*---------------------------------------------------*/
+.education{
+    height: auto;
+    
+}
+.edu-cards{
+    margin-top: 200px;
+}
