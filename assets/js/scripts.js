@@ -1,4 +1,2 @@
-$("#scroll-btn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#about").offset().top},2000);
-});
+//Owner: Vivek Rawal
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener('click', function (e){e.preventDefault();document.querySelector(this.getAttribute('href')).scrollIntoView({behavior: 'smooth'});});});
